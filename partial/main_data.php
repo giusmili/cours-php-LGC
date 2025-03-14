@@ -7,10 +7,10 @@
                 <figcaption>
                     <h2><?= $data["title"] ?></h2>
                     <ul>
-                        <li>Date : <?= $data["date"] ?></li>
-                        <li>Réal : <?= $data["real"] ?></li>
-                        <li>Genre : <?= $data["genre"] ?></li>
-                        <li>Sortie DVD : <?= $data["sortie"] ?></li>
+                        <li><strong>Date</strong> : <?= $data["date"] ?></li>
+                        <li><strong>Réal</strong> : <?= $data["real"] ?></li>
+                        <li><strong>Genre</strong> : <?= $data["genre"] ?></li>
+                        <li><strong>Sortie DVD</strong> : <?= $data["sortie"] ?></li>
                     </ul>
                     <a href="'<?= $data['url'] ?>'" class="button">Consulter la page</a>
                 </figcaption>
