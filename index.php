@@ -1,6 +1,7 @@
 <!--head-->
 <?php
-    include_once __DIR__ ."/partial/header.inc.php"
+    include_once __DIR__ ."/partial/header.inc.php";
+    include_once __DIR__ ."/model/data.php";
 ?>
 <!--head-->
 <body>
@@ -9,7 +10,7 @@
     </header>
     <!--main-->
     <?php
-        include_once __DIR__ ."/partial/main.inc.php"
+        include_once __DIR__ ."/partial/main_data.php"
     ?>
     <!--main-->
     <!--footer-->

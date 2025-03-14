@@ -1,13 +1,13 @@
 <?php
     const data = [
         [
-            "cover","?"
+            "cover","./image/king-kong.jpg"
             "title"=>"King Kong",
             "date" => "1933",
             "real" => "Merian C.Cooper, Ernest B",
             "genre" =>"Horreur, fantastique",
-            "sortie DVD" =>"22 novembre 2005",
-            "url"=>"link"
+            "sortie" =>"22 novembre 2005",
+            "url"=>"#"
         ], [
             "cover","?"
             "title"=>"Scarface",
@@ -15,7 +15,7 @@
             "real" => "Howard Hawks",
             "genre" =>"Policier, action",
             "sortie" =>"Dvd : 23 décembre 2005",
-            "url"=>"link"
+            "url"=>"#"
             
         ],
         [
@@ -25,7 +25,7 @@
             "real" => "Victor Fleming",
             "genre" =>"Dramatique, guerre",
             "sortie" =>"Dvd : 19 mars 2005",
-            "url"=>"link"
+            "url"=>"#"
             
         ],
     ]

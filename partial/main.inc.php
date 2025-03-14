@@ -44,3 +44,5 @@
             </figure>
         </div>       
     </main>
+   
+    </div>
