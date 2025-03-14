@@ -9,7 +9,7 @@
 
 > Ce projet php est dédié au cinéma classique
 
-### Exemple de code
+### 💡Exemple de code
 ```php
     include_once __DIR__ ."/partial/header.inc.php"
 
@@ -27,3 +27,4 @@
     </ul>
 
 ```
+[voir la publication]("#") 😀
