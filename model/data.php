@@ -1,7 +1,7 @@
 <?php
     const data = [
         [
-            "cover","./image/king-kong.jpg"
+            "cover"=>"./image/king-kong.jpg",
             "title"=>"King Kong",
             "date" => "1933",
             "real" => "Merian C.Cooper, Ernest B",
@@ -9,7 +9,7 @@
             "sortie" =>"22 novembre 2005",
             "url"=>"#"
         ], [
-            "cover","?"
+            "cover"=>"./image/camonte.jpg",
             "title"=>"Scarface",
             "date" => "1932",
             "real" => "Howard Hawks",
@@ -19,7 +19,7 @@
             
         ],
         [
-            "cover","?"
+            "cover"=>"./image/autant-le-vent-little.png",
             "title"=>"Autant en emporte le vent",
             "date" => "1939",
             "real" => "Victor Fleming",
@@ -28,4 +28,4 @@
             "url"=>"#"
             
         ],
-    ]
+    ];

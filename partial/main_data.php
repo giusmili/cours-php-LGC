@@ -1,36 +1,23 @@
 <main>
     <div class="collection" role="region" aria-labelledby="screen-movie">
-    <?php foreach(data as $movie):?>
+
+    <?php foreach(data as $data) : ?>
             <figure id="screen-movie">
-                <?= '<img src="'$movie['cover']'" alt="image film kingkong" loading="lazy">' ?>
+                <?= '<img src="'.$data["cover"].'" alt="'.$data["title"].'" loading="lazy">' ?>
                 <figcaption>
-                    <h2><?= $movie['title'] ?></h2>
+                    <h2><?= $data["title"] ?></h2>
                     <ul>
-                        <li>Date : <?= $movie['date'] ?></li>
-                        <li>Réal : <?= $movie['real'] ?></li>
-                        <li>Genre : <?= $movie['genre'] ?></li>
-                        <li>Sortie DVD : <?= $movie['sortie'] ?></li>
+                        <li>Date : <?= $data["date"] ?></li>
+                        <li>Réal : <?= $data["real"] ?></li>
+                        <li>Genre : <?= $data["genre"] ?></li>
+                        <li>Sortie DVD : <?= $data["sortie"] ?></li>
                     </ul>
-                    <a href="'<?= $movie['url'] ?>'" class="button">Consulter la page</a>
+                    <a href="'<?= $data['url'] ?>'" class="button">Consulter la page</a>
                 </figcaption>
             </figure>
-        <?php endforeach;?>
+        <?php endforeach; ?>
     </div>
 </main>
-<?php
 
 
-    <ul>
-        <li>
-            <h2><?= $article['title'] ?></h2>
-        </li>
-        <li>
-            <p><?= $article['content'] ?></p>
-        </li>
-        <li>
-            <a href="<?= $article['url'] ?>" target="blank">
-                <?= $article['link'] ?> &raquo;
-            </a>
-             
-        </li>
-    </ul>
+
